@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const readline = require('readline-sync');
 
-const language = process.env.LANGUAGE || 'de'; //en
+const language = process.env.LANGUAGE || 'en'; //de
 
 const messages = {
   en: {
